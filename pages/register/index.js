@@ -2,8 +2,23 @@ import Header from "../../components/layout/Header";
 import Footer from "../../components/layout/Footer";
 import styles from "./index.module.css";
 import Link from "next/link";
+import { setCookie, getCookie } from "cookies-next";
 
 export default function Login() {
+  
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(e)
+    let data = {
+      username: "Hades",
+      lastName: "Battulga"
+    }
+    setCookie("option", JSON.stringify(data))
+    
+    //JSON.parse() --> String convert to JSON
+    //JSON.stringify() --> JSON convert to String
+    console.log(JSON.parse(getCookie("option")));
+  }
   return (
     <div>
       <Header />
@@ -54,9 +69,9 @@ export default function Login() {
                 ></input>
               </div>
               <div>
-                <button type="submit" name="login" className={styles.loginBtn}>
+                <button type="submit" name="login" onClick={(e) => handleSubmit(e)} className={styles.loginBtn}>
                   {" "}
-                  Нэвтрэх
+                  Бүртгүүлэх
                 </button>
               </div>
               {/* \ */}
