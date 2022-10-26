@@ -1,0 +1,63 @@
+.cont {
+  background-color: #235390;
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 2;
+}
+.navbarLogo {
+  height: 36px;
+  float: left;
+  margin-top: 18px;
+  padding-left: 100px;
+}
+.navbarBtn {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: 700;
+  width: 125px;
+  background-color: #58cc02;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: 700;
+  width: 100px;
+  background-color: #58cc02;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: 700;
+  width: 80px;
+  background-color: #58cc02;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 10px;
+  font-size: 14px;
+}

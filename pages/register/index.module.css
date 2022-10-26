@@ -1,0 +1,71 @@
+.cont {
+  display: flex;
+  justify-content: space-around;
+  background-color: #25589c;
+  height: auto;
+  background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+}
+.contIndex {
+  padding-top: 100px;
+  margin-right: 0px;
+}
+.img {
+  padding-left: 200px;
+  padding-bottom: 40px;
+  margin-right: 100px;
+}
+.loginCont {
+  padding-left: 100px;
+  padding-top: 100px;
+  background-color: #25589c;
+}
+.loginH1 {
+  color: white;
+  margin-bottom: 10px;
+}
+.loginP {
+  color: white;
+  opacity: 0.5;
+  margin-top: 0px;
+}
+.contactInput {
+  border: 1px solid #9b9b9b;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding-left: 20px;
+  height: 42px;
+  width: 280px;
+  margin-left: 3px;
+  font-weight: 500;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.name input {
+  width: 126px;
+}
+.loginRegisterCont {
+  padding-top: 15px;
+  color: white;
+  text-align: center;
+}
+.loginRegister {
+  color: #58cc02;
+  padding-left: 5px;
+}
+
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  background-color: #58cc02;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: white;
+}
